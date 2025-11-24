@@ -4,7 +4,6 @@ from telegram import Poll, Update, InputMediaPhoto
 from telegram.ext import Updater, CommandHandler, PollAnswerHandler, PollHandler, CallbackContext
 
 # ==== ВСТАВЬ СВОЙ ТОКЕН ====
-TOKEN = "8537067418:AAF6FR2KAvaf0oED12JP7zFv4u0Sjsi9CNA"
 
 # ==== ВОПРОСЫ ====
 QUESTIONS = [
@@ -206,3 +205,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
